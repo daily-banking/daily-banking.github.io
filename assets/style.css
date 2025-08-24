@@ -1,0 +1,47 @@
+html, body {
+    height: 100vh;
+}
+
+body {
+    margin: 0px;
+    color: white;
+    background-color: #1f1f22;
+}
+
+main {
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+    justify-items: center;
+    height: 100vh;
+    margin: 0 64px;
+    font-family: "SBSansDisplay", Arial, sans-serif;
+}
+
+header {
+    margin: 24px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+article {
+    display: flex;
+    align-items: center;
+}
+
+video {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 32px;
+}
+
+footer {
+    height: 64px;
+    width: 100px;
+    margin: 24px 0;
+    background-image: url('./logo.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
